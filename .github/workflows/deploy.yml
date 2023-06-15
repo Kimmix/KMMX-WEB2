@@ -46,4 +46,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: KMMX-Web
-          entrypoint: 'dist/index.html' # same as `out` option in config
+          entrypoint: https://deno.land/std/http/file_server.ts
+        root: dist
