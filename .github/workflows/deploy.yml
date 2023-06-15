@@ -46,4 +46,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: KMMX-Web
-          entrypoint: 'index.js' # same as `out` option in config
+          entrypoint: 'dist/index.html' # same as `out` option in config
