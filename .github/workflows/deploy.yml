@@ -45,6 +45,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: KMMX-Web
+          project: KMMX-WEB2
           entrypoint: https://deno.land/std/http/file_server.ts
           root: dist
