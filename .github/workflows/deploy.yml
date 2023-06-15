@@ -47,4 +47,4 @@ jobs:
         with:
           project: KMMX-Web
           entrypoint: https://deno.land/std/http/file_server.ts
-        root: dist
+          root: dist
